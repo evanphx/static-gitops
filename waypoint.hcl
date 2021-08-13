@@ -10,7 +10,7 @@ app "web" {
 
     registry {
       use "docker" {
-        image = "localhost:5000/static"
+        image = "host.docker.internal:5000/static"
         tag = "latest"
       }
     }
